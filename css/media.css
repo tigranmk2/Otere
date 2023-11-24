@@ -1,0 +1,353 @@
+@media screen and (max-width:480px) {
+
+
+    .allone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firsttext {
+        font-family: Vova;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    nav,
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .markets div {
+        margin: 0 5px;
+    }
+
+    .smalltext {
+        color: #9E9DA2;
+        font-size: 17px;
+        font-family: 'Vova';
+        margin: 40px 0px;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .two {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0px;
+
+    }
+
+    .hatuk {
+        width: 100%;
+    }
+
+    .drive {
+        flex-direction: column;
+    }
+
+    .allone2 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn {
+        padding: 20px 30px;
+        background-color: black;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-family: Vova;
+        transition: .3s ease-in-out;
+        width: 80%;
+    }
+
+    .me {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0px;
+    }
+
+    .smalltext2 {
+        color: white;
+        font-family: Vova;
+        font-size: 18px;
+        margin: 0 10px;
+        padding: 10px 0px;
+    }
+
+    .drive input {
+        border-radius: 5px;
+        border: none;
+        padding: 20px 60px 20px 15px;
+        border: none;
+    }
+
+    .greenall {
+        display: flex;
+        flex-direction: column;
+        padding: 0 !important;
+    }
+
+    .greenone1,
+    .greenone {
+        display: flex;
+        width: 20%;
+        padding: 10px 0px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .big1,
+    .big {
+        font-family: Vova;
+        font-size: larger;
+        text-align: center;
+    }
+
+    .smalltext41,
+    .smalltext4 {
+        color: #9E9DA2;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .allpoints {
+        display: none;
+    }
+
+    .allmoney {
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+
+    .work2 {
+        flex-wrap: wrap;
+    }
+
+
+
+    .youcan {
+        display: none;
+    }
+
+    .foot {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dow {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .dow div {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .allmoney image {
+        margin: 35px;
+    }
+
+    .better {
+        padding: 20px;
+    }
+
+    .bedad {
+        padding: 20px 0px;
+    }
+
+    .flex {
+        color: black;
+        font-size: 30px;
+        font-family: Vova;
+        margin: 10px;
+    }
+
+    .work2 {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+    }
+
+    header {
+        padding: 0 10px !important;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* скрываем чекбокс */
+    #menu__toggle {
+        opacity: 0;
+    }
+
+    /* стилизуем кнопку */
+    .menu__btn {
+        display: flex;
+        /* используем flex для центрирования содержимого */
+        align-items: center;
+        /* центрируем содержимое кнопки */
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    /* добавляем "гамбургер" */
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #616161;
+    }
+
+    .menu__btn>span::before {
+        content: '';
+        top: -8px;
+    }
+
+    .menu__btn>span::after {
+        content: '';
+        top: 8px;
+    }
+
+    /* контейнер меню */
+    .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        background-color: #eceff1dd;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    }
+
+    /* элементы меню */
+    .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: #333;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .menu__item:hover {
+        background-color: #CFD8DC;
+        box-shadow: 2px 9px 10px 2px;
+        border-radius: 10px;
+    }
+
+
+    #menu__toggle:checked~.menu__btn>span {
+        transform: rotate(45deg);
+    }
+
+    #menu__toggle:checked~.menu__btn>span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+
+    #menu__toggle:checked~.menu__btn>span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    #menu__toggle:checked~.menu__box {
+        visibility: visible;
+        left: 0;
+    }
+
+
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
+        transition-duration: .25s;
+    }
+
+    .menu__box {
+        transition-duration: 1s;
+    }
+
+    .menu__item {
+        transition-duration: 1s;
+    }
+
+    
+
+    header {
+        margin: 10px;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .help {
+        padding: 0;
+    }
+
+    #menu__toggle {
+        display: flex;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

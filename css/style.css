@@ -1,0 +1,352 @@
+nav,
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+ul li {
+    margin: 50px 50px;
+    font-family: Vova;
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+ul li:hover {
+    color: rgb(117, 191, 122);
+}
+
+.help {
+    padding: 10px 30px;
+    background-color: rgb(117, 191, 122);
+    border-radius: 10px;
+    color: white;
+}
+
+.help:hover {
+    color: black;
+}
+
+.allone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.markets {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.firsttext {
+    font-family: Vova;
+    font-size: 40px;
+}
+
+.smalltext {
+    color: #9E9DA2;
+    font-size: 18px;
+    font-family: 'Vova';
+    margin: 40px 0px;
+}
+
+
+main {
+    background-color: #F9F9F9;
+}
+
+
+.image1 {
+    width: 80%;
+}
+
+.drive {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(117, 191, 122);
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px 0px;
+}
+
+.smalltext2 {
+    color: white;
+    font-family: Vova;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.drive input {
+    border-radius: 5px;
+    border: none;
+    padding: 20px 100px 20px 15px;
+    border: none;
+}
+
+.allone2 {
+    display: flex;
+}
+
+
+
+.btn {
+    padding: 20px 30px;
+    margin: 0 10px;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Vova;
+    transition: .3s ease-in-out ;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 10px 1px;
+
+}
+input::placeholder {
+    opacity: 0.5;
+}
+
+.drive div {
+    align-items: center;
+}
+
+
+.smalltext3 {
+    color: #9E9DA2;
+    font-size: 18px;
+    font-family: 'Vova';
+    margin: 10px 0px;
+}
+
+.allone3 {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.greenone {
+    display: flex;
+    width: 20%;
+    padding: 10px 0px;
+}
+
+.greenall {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.big {
+    font-family: Vova;
+    font-size: larger;
+    text-align: left;
+}
+
+.how {
+    display: flex;
+    justify-content: center;
+    font-family: 'Vova';
+    font-size: 20px;
+}
+
+
+.green {
+    color: rgb(117, 191, 122);
+    display: flex;
+    justify-content: center;
+    font-family: Vova;
+    font-size: 20px;
+}
+
+.smalltext4 {
+    color: #9E9DA2;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.greenone1 {
+    display: flex;
+    width: 20%;
+    padding: 10px 0px;
+    text-align: left;
+    margin-left: auto;
+}
+
+.smalltext41 {
+    color: #9E9DA2;
+    margin: 10px 0px;
+    text-align: right;
+
+}
+
+.big1 {
+    font-family: Vova;
+    font-size: larger;
+    text-align: right;
+
+}
+
+.mar {
+    margin: 0 10px;
+}
+
+.black {
+    color: black;
+}
+
+.allpoints {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 10px;
+    font-size: 10px;
+}
+
+.normal {
+    opacity: 0.5;
+}
+
+.green1 {
+    color: rgb(117, 191, 122);
+    display: flex;
+    justify-content: center;
+    font-family: Vova;
+    font-size: 28px;
+    padding: 50px 0px;
+}
+
+.allmoney {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color: white;
+    border-radius: 10px;
+    width: 85%;
+    margin: 50px auto;
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 0px 10px 0px transparent;
+}
+
+.work2 {
+    display: flex;
+    align-items: center;
+}
+
+.work {
+    font-size: 65px;
+    font-family: Vova;
+    color: rgb(117, 191, 122);
+
+}
+
+.flex {
+    color: black;
+    font-size: 30px;
+    font-family: Vova;
+    margin: 0 20px;
+}
+
+.youcan {
+    color: #9E9DA2;
+    font-family: Vova;
+    padding: 10px 0px;
+}
+
+.all1 {
+    margin: auto 0;
+}
+
+.money {
+    padding-bottom: 50px
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Vova';
+    padding-bottom: 100px;
+    padding: 50px;
+}
+
+.beour {
+    padding: 10px 0px;
+    font-size: x-large;
+}
+
+.line {
+    line-height: 2;
+}
+
+.dow {
+    display: flex;
+    width: 30%;
+}
+
+.dow div {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.foot div a:hover {
+    color: rgb(117, 191, 122);
+}
+
+.foot div a {
+    transition: .2s ease-in-out;
+
+}
+
+.dzax {
+    padding: 50px 0px;
+}
+
+.money .image {
+    margin: 20px;
+}
+
+.hamburger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu__toggle {
+    display: none;
+}
+
+
+
+.logo {
+    width: 10%;
+}
+
+.creat {
+    text-align: center;
+    font-family: Vova;
+    padding-bottom: 50px;
+    padding: 10px 0px;
+}
+
+.vova2 {
+    color: rgb(117, 191, 122);
+    font-size: larger;
+}
+
+.allmoney:hover {
+    box-shadow: 0px 0px 10px 0px ;
+}
+

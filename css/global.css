@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+}
+
+.image{
+    font-size: 0;
+    overflow: hidden;
+}
+
+header,section,footer{
+    padding: 0 50px;
+}
+
+
+.row-mv>div{
+    width: 100%;
+    
+}
+
+@font-face {
+    font-family: Vova;
+    src: url(../fonts/Gilroy-Bold.ttf);
+    font-style: normal;
+}
